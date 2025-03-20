@@ -1,0 +1,15 @@
+4. Tester l'API
+Vous pouvez tester votre API avec un outil comme Postman ou en utilisant curl pour envoyer des requêtes HTTP.
+
+1-GET /api/items pour obtenir la liste des éléments.
+2-POST /api/items pour ajouter un élément (en envoyant un corps JSON).
+3-GET /api/items/:id pour obtenir un élément par ID.
+4-PUT /api/items/:id pour mettre à jour un élément par ID (en envoyant un corps JSON).
+5-DELETE /api/items/:id pour supprimer un élément par ID.
+
+Conclusion
+Voilà un exemple simple pour créer :
+ une API REST avec Express.
+  Vous pouvez étendre cet exemple 
+  avec une base de données comme :
+   MongoDB, MySQL, ou PostgreSQL, selon vos besoins.
